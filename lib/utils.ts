@@ -1,11 +1,10 @@
-const ora = require("ora"
-)
+const ora = require("ora")
 /**
  * 延迟函数
  * @param {Number} n 延迟时间
  */
-function sleep(n) {
-  return new Promise((resolve, reject) => {
+function sleep(n: number) {
+  return new Promise<void>((resolve, reject) => {
     setTimeout(() => {
       resolve()
     }, n)
@@ -19,7 +18,8 @@ function sleep(n) {
  * @param  {List} args 函数执行的参数
  * @returns 异步调用返回值
  */
-async function loading(message, fn, ...args) {
+// @ts-ignore
+async function loading(message: string, fn: Function, ...args: any) {
   const spinner = ora(message)
   spinner.start()
   try {

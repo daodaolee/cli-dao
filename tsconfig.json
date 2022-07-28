@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "strict": true,
+    "outDir": "./build",
+    "esModuleInterop": true,
+    "noImplicitReturns": true,
+    "target": "esnext"
+  },
+  "include": [
+    "lib/**/*.ts",
+    "index.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
