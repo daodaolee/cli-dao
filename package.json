@@ -1,0 +1,29 @@
+{
+  "name": "cli-dao",
+  "version": "1.0.0",
+  "description": "A self-use front-end scaffolding",
+  "bin": "bin/enter",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "脚手架",
+    "cli"
+  ],
+  "author": {
+    "name": "daodaolee",
+    "email": "im@daodaolee.cn",
+    "url": "https://github.com/daodaolee/cli-dao"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chalk": "^4.1.2",
+    "commander": "^9.4.0",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.5.2",
+    "fs-extra": "^10.1.0",
+    "inquirer": "^8.2.4",
+    "ora": "^5.4.1"
+  }
+}
