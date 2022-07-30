@@ -1,7 +1,8 @@
 #! /usr/bin/env node
 
 const program = require("commander")
-const Command = require("./lib/command")
+// const Command = require("./lib/command")
+import { Command } from "./lib/Command"
 // 版本
 const v = require("../package.json").version
 program

@@ -1,7 +1,8 @@
 const path = require("path")
 const fs = require("fs-extra")
 const Inquirer = require("inquirer")
-const Creator = require("./Creator")
+import { Creator } from './Creator';
+// const { Creator } = require("./Creator")
 
 module.exports = async (projectName: string, options: { force: any }) => {
   // 获取当前工作目录

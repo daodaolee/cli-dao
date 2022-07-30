@@ -5,8 +5,8 @@ const log = console.log
 
 type TypeCommandName = "create" | "help"
 
-class Command {
-  constructor() {}
+export class Command {
+  constructor() { }
   // 创建
   create() {
     program
@@ -43,5 +43,5 @@ class Command {
   }
 }
 
-module.exports = Command
-export { }
+// module.exports = Command
+// export { }
