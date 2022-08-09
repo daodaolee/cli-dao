@@ -10,7 +10,7 @@ axios.interceptors.response.use((res: { data: any }) => {
  */
 async function getRepo() {
   // return axios.get("https://api.github.com/orgs/zhurong-cli/repos")
-  return axios.get("https://api.github.com/users/daodaolee/repos")
+  return axios.get("https://api.github.com/users/daodaolee/repos?page=1&per_page=100")
 }
 
 /**
