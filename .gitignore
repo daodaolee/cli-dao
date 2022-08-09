@@ -16,7 +16,6 @@ yarn-error.log*
 .idea
 _test.js
 
-build/
 node/
 .vscode/
 publish/logs

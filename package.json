@@ -1,6 +1,6 @@
 {
   "name": "cli-dao",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A self-use front-end scaffolding",
   "bin": "build/index.js",
   "scripts": {
